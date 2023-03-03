@@ -12,7 +12,7 @@ public class NameController {
 
     @GetMapping("/names")
     public String getNames(@RequestParam("name") String name){
-        return "Hello " + name + "さん";
+        return "こんにちは" + name + "さん";
     }
 
     @PostMapping("/names")
